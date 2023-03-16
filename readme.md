@@ -1,5 +1,12 @@
 # demo
 
+## online envs
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/darwintree/economics-demo/main) May wait for a long time for the first start.
+
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=614275344&machine=basicLinux32gb&location=SouthEastAsia) Manually run `python -m ipykernel install --user` to install ipykernel
+
+
 ## library introduction
 
 `python-bitoin-utils`: Library to interact with the Bitcoin network. Ideal for low-level learning and experimenting.
