@@ -13,10 +13,6 @@ k1 = HDKey('tprv8ZgxMBicQKsPd1Q44tfDiZC98iYouKRC2CzjT3HGt1yYw2zuX2awTotzGAZQEAU9
 k2 = HDKey('tprv8ZgxMBicQKsPeUbMS6kswJc11zgVEXUnUZuGo3bF6bBrAg1ieFfUdPc9UHqbD5HcXizThrcKike1c4z6xHrz6MWGwy8L6YKVbgJ'
            'MeQHdWDp', network=NETWORK)
 
-print(k1.address())
-
-r = random.randint(1, 1145141919810)
-
 wallet_delete_if_exists('multisig_2of2_cosigner1')
 wallet_delete_if_exists('multisig_2of2_cosigner2')
 
